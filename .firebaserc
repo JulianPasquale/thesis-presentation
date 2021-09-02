@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tesis-99ba6"
+  },
+  "targets": {
+    "tesis-99ba6": {
+      "hosting": {
+        "main": [
+          "haptic-presentation"
+        ]
+      }
+    }
+  }
+}

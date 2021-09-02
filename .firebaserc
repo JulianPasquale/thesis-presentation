@@ -5,7 +5,7 @@
   "targets": {
     "tesis-99ba6": {
       "hosting": {
-        "main": [
+        "presentation": [
           "haptic-presentation"
         ]
       }

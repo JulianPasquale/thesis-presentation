@@ -30,4 +30,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_TESIS_99BA6 }}'
           channelId: live
           projectId: tesis-99ba6
-          target: main
+          target: presentation

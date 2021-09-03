@@ -2,11 +2,14 @@ import React, { useEffect } from 'react';
 
 // Reveal Styles
 import 'reveal.js/dist/reveal.css';
-import 'reveal.js/dist/theme/black.css';
+import 'reveal.js/dist/theme/solarized.css';
 
 import RevealNotes from 'reveal.js/plugin/notes/notes';
 import RevealHighlight from 'reveal.js/plugin/highlight/highlight';
 import Reveal from 'reveal.js';
+
+// Components
+import * as slides from './components';
 
 const App = () => {
   useEffect(() => {
@@ -21,16 +24,9 @@ const App = () => {
 
   return (
     <div className="slides">
-      <section>
-        <p className="font-sans:roboto font-bold text-green-900 text-7xl">
-          Diseño de interacciones vibrotáctiles en dispositivos móviles
-        </p>
+      <slides.CoverPage />
 
-        <p className="prose prose-xl prose-indigo">
-          Facultad de informática - UNLP
-        </p>
-      </section>
-      <section>Slide 2</section>
+      <slides.Agenda />
     </div>
   );
 };

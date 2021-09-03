@@ -1,12 +1,15 @@
 import React, { useEffect } from 'react';
 
-// Styles
+// Reveal Styles
 import 'reveal.js/dist/reveal.css';
-import 'reveal.js/dist/theme/black.css';
+import 'reveal.js/dist/theme/solarized.css';
 
 import RevealNotes from 'reveal.js/plugin/notes/notes';
 import RevealHighlight from 'reveal.js/plugin/highlight/highlight';
 import Reveal from 'reveal.js';
+
+// Components
+import * as slides from './components';
 
 const App = () => {
   useEffect(() => {
@@ -21,13 +24,9 @@ const App = () => {
 
   return (
     <div className="slides">
-      <section>
-        Slide 1
-        asfgsdgdrhs
-        argshshsfg
-        dfhsf
-      </section>
-      <section>Slide 2</section>
+      <slides.CoverPage />
+
+      <slides.Agenda />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-// Styles
+// Reveal Styles
 import 'reveal.js/dist/reveal.css';
 import 'reveal.js/dist/theme/black.css';
 
@@ -22,10 +22,13 @@ const App = () => {
   return (
     <div className="slides">
       <section>
-        Slide 1
-        asfgsdgdrhs
-        argshshsfg
-        dfhsf
+        <p className="font-sans:roboto font-bold text-green-900 text-7xl">
+          Diseño de interacciones vibrotáctiles en dispositivos móviles
+        </p>
+
+        <p className="prose prose-xl prose-indigo">
+          Facultad de informática - UNLP
+        </p>
       </section>
       <section>Slide 2</section>
     </div>

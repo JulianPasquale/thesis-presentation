@@ -27,6 +27,8 @@ const App = () => {
       <slides.CoverPage />
 
       <slides.Agenda />
+
+      <slides.Introduction />
     </div>
   );
 };

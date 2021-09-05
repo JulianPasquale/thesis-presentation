@@ -132,5 +132,27 @@ export default () => (
         </ul>
       </aside>
     </section>
+
+    <section>
+      <p className="font-extrabold text-green-600 text-5xl">
+        Limitaciones al diseñar háptica
+      </p>
+
+      <ul className="text-gray-600 text-4xl space-y-6">
+        <li>
+          Escasez de herramientas que faciliten el diseño y prueba de efectos vibrotáctiles.
+        </li>
+        <li>
+          Diferencias entre experiencias personales.
+        </li>
+        <li>
+          Diferencias en la ejecución de vibraciones en
+          distitos dispositivos de hardware y sistemas operativos.
+        </li>
+        <li>
+          No existe un modelo conceptual unificado.
+        </li>
+      </ul>
+    </section>
   </section>
 );

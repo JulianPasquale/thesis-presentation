@@ -5,14 +5,14 @@ import * as images from '../images/Introduction';
 
 export default () => (
   <section>
-    <p className="font-extrabold text-green-800 text-7xl">
+    <p className="font-extrabold text-green-800 text-5xl">
       Introducción
     </p>
 
     <section>
       <p className="font-extrabold text-green-600 text-5xl">Háptica</p>
 
-      <div className="text-gray-600 text-4xl text-left">
+      <div className="text-gray-600 text-3xl text-left">
         <p>
           El término háptica fue utilizado en el año 1892 para referirse al estudio del tacto,
           similar a “óptico” para la vista o “acústico” para el sonido.
@@ -23,13 +23,7 @@ export default () => (
           percepción del sentido del tacto, como a la tecnología que utiliza el tacto
           como método para brindar retroalimentación o feedback.
         </p>
-      </div>
-    </section>
 
-    <section>
-      <p className="font-extrabold text-green-600 text-5xl">Háptica</p>
-
-      <div className="text-gray-600 text-4xl text-left">
         <p>
           Integra información proveniente de dos sentidos:
           el tacto y la kinestesia (vinculada a su vez con la propiocepción).
@@ -50,6 +44,10 @@ export default () => (
     <section>
       <p className="font-extrabold text-green-600 text-5xl">
         Percepción háptica
+      </p>
+
+      <p className="text-gray-600 text-3xl text-left">
+        La mano es la estructura principal utilizada en la exploración táctil del mundo externo.
       </p>
 
       <div className="flex justify-center">
@@ -75,9 +73,6 @@ export default () => (
             lo que permite obtener información mucho más detallada,
             que está estrictamente relacionada con los movimientos realizados
             por la persona en su interacción con el objeto.
-          </li>
-          <li>
-            La mano es la estructura principal utilizada en la exploración táctil del mundo externo.
           </li>
         </ul>
       </aside>
@@ -138,7 +133,7 @@ export default () => (
         Limitaciones al diseñar háptica
       </p>
 
-      <ul className="text-gray-600 text-4xl space-y-6">
+      <ul className="text-gray-600 text-3xl space-y-6">
         <li>
           Escasez de herramientas que faciliten el diseño y prueba de efectos vibrotáctiles.
         </li>

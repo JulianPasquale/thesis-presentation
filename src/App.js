@@ -29,6 +29,8 @@ const App = () => {
       <slides.Agenda />
 
       <slides.Introduction />
+
+      <slides.UXDesign />
     </div>
   );
 };

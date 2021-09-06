@@ -30,7 +30,11 @@ const App = () => {
 
       <slides.Introduction />
 
+      <slides.Targets />
+
       <slides.UXDesign />
+
+      <slides.Implementation />
     </div>
   );
 };

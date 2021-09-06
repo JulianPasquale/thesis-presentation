@@ -10,7 +10,7 @@ export default () => (
     </p>
 
     <section>
-      <p className="font-extrabold text-green-600 text-5xl">
+      <p className="font-extrabold text-green-600 text-4xl">
         ¿Qué es la experiencia de usuario?
       </p>
 
@@ -27,7 +27,7 @@ export default () => (
 
         <p>
           Incluye la impresión general de lo bueno que es usarlo,
-          hasta el efecto que tienen los pequeños detalles
+          hasta el efecto que tienen los pequeños detalles.
         </p>
 
         <p>
@@ -45,7 +45,7 @@ export default () => (
     </section>
 
     <section>
-      <p className="font-extrabold text-green-600 text-5xl">
+      <p className="font-extrabold text-green-600 text-4xl">
         Feedback háptico
       </p>
 
@@ -90,7 +90,7 @@ export default () => (
     </section>
 
     <section>
-      <p className="font-extrabold text-green-600 text-5xl">
+      <p className="font-extrabold text-green-600 text-4xl">
         Actividades básicas del diseño de interacción
       </p>
 
@@ -105,7 +105,7 @@ export default () => (
     </section>
 
     <section>
-      <p className="font-extrabold text-green-600 text-5xl">
+      <p className="font-extrabold text-green-600 text-4xl">
         Prototipado
       </p>
 

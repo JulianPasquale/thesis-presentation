@@ -27,7 +27,7 @@ export default () => (
 
         <p>
           Incluye la impresión general de lo bueno que es usarlo,
-          hasta el efecto que tienen los pequeños detalles
+          hasta el efecto que tienen los pequeños detalles.
         </p>
 
         <p>

@@ -26,7 +26,7 @@ export default () => (
 
         <p>
           Integra información proveniente de dos sentidos:
-          el tacto y la kinestesia (vinculada a su vez con la propiocepción).
+          el tacto y la kinestesia.
         </p>
 
         <p>

@@ -10,7 +10,7 @@ export default () => (
     </p>
 
     <section>
-      <p className="font-extrabold text-green-600 text-5xl">Háptica</p>
+      <p className="font-extrabold text-green-600 text-4xl">Háptica</p>
 
       <div className="text-gray-600 text-3xl text-left">
         <p>
@@ -42,7 +42,7 @@ export default () => (
     </section>
 
     <section>
-      <p className="font-extrabold text-green-600 text-5xl">
+      <p className="font-extrabold text-green-600 text-4xl">
         Percepción háptica
       </p>
 
@@ -79,7 +79,7 @@ export default () => (
     </section>
 
     <section>
-      <p className="font-extrabold text-green-600 text-5xl">
+      <p className="font-extrabold text-green-600 text-4xl">
         Tecnología háptica
       </p>
 
@@ -129,7 +129,7 @@ export default () => (
     </section>
 
     <section>
-      <p className="font-extrabold text-green-600 text-5xl">
+      <p className="font-extrabold text-green-600 text-4xl">
         Limitaciones al diseñar háptica
       </p>
 

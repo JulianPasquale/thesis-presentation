@@ -31,6 +31,8 @@ const App = () => {
       <slides.Introduction />
 
       <slides.UXDesign />
+
+      <slides.Implementation />
     </div>
   );
 };

@@ -35,6 +35,12 @@ const App = () => {
       <slides.UXDesign />
 
       <slides.Implementation />
+
+      <slides.Demostración />
+
+      <slides.Conclusion />
+
+      <slides.Final />
     </div>
   );
 };

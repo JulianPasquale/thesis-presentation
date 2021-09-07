@@ -4,3 +4,6 @@ export { default as Introduction } from './Introduction';
 export { default as Targets } from './Targets';
 export { default as UXDesign } from './UXDesign';
 export { default as Implementation } from './Implementation';
+export { default as Demostración } from './Demostration';
+export { default as Conclusion } from './Conclusion';
+export { default as Final } from './Final';

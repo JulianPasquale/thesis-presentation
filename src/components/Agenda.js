@@ -12,7 +12,7 @@ export default () => (
       <li>Diseño de experiencias de usuario</li>
       <li>Desarrollo e implementación</li>
       <li>Demostración</li>
-      <li>Conclusiones y posibles trabajos futuros</li>
+      <li>Conclusiones</li>
     </ol>
   </section>
 );

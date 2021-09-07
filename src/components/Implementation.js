@@ -72,8 +72,8 @@ export default () => (
       </p>
 
       <p className="text-gray-600 text-3xl text-left">
-        Se ideó una forma de poder expresar en un gráfico como debería sentirse
-        el efecto vibrotáctil que se desea crear, a través de la creación de puntos.
+        Se creó una herramienta web que, a través de un gráfico interactivo,
+        permite diseñar vibraciones.
       </p>
 
       <div className="mx-auto flex justify-center max-h-96 max-w-2xl">

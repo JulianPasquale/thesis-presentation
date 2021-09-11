@@ -10,9 +10,16 @@ export default () => (
     </p>
 
     <section>
-      <p className="font-extrabold text-green-600 text-4xl">Háptica</p>
+      <div className="mx-auto flex justify-center">
+        <img src={images.WordsMap} alt="Words Map" />
+      </div>
 
-      <div className="text-gray-600 text-3xl text-left">
+      <aside className="notes">
+        <p>
+          La propiocepción se refiere a cómo las personas perciben su propio cuerpo,
+          a diferencia del sentido háptico que es como las personas perciben a los objetos externos.
+        </p>
+
         <p>
           El término háptica fue utilizado en el año 1892 para referirse al estudio del tacto,
           similar a “óptico” para la vista o “acústico” para el sonido.
@@ -33,21 +40,12 @@ export default () => (
           Utiliza receptores de la piel y sensores en los músculos, tendones y articulaciones,
           y combina el tacto con el sentido del movimiento.
         </p>
-      </div>
-
-      <aside className="notes">
-        La propiocepción se refiere a cómo las personas perciben su propio cuerpo,
-        a diferencia del sentido háptico que es como las personas perciben a los objetos externos.
       </aside>
     </section>
 
     <section>
       <p className="font-extrabold text-green-600 text-4xl">
         Percepción háptica
-      </p>
-
-      <p className="text-gray-600 text-3xl text-left">
-        La mano es la estructura principal utilizada en la exploración táctil del mundo externo.
       </p>
 
       <div className="flex justify-center">
@@ -83,33 +81,8 @@ export default () => (
         Tecnología háptica
       </p>
 
-      <div className="grid grid-cols-3 gap-4">
-        <a
-          href="https://es.dreamstime.com/tel%C3%A9fono-m%C3%B3vil-que-vibra-o-suena-el-icono-plano-del-vector-para-los-apps-y-las-p%C3%A1ginas-web-image144600676"
-          target="_blank"
-          rel="noreferrer"
-          style={{ width: '80%', height: '80%' }}
-        >
-          <img src={images.Smartphone} alt="Smartphone" />
-        </a>
-
-        <a
-          href="https://www.amazon.com/-/es/Xbox-Core-Controller-Robot-White/dp/B08DF26MXW"
-          target="_blank"
-          rel="noreferrer"
-          style={{ width: '80%', height: '80%' }}
-        >
-          <img src={images.Joystick} alt="Xbox Controller" />
-        </a>
-
-        <a
-          href="https://www.automate.org/userAssets/riaUploads/image/RIA-CR-Blog-Nov-T2-BLOG(1).jpg"
-          target="_blank"
-          rel="noreferrer"
-          style={{ width: '80%', height: '80%' }}
-        >
-          <img src={images.RoboticHand} alt="Xbox Controller" />
-        </a>
+      <div className="mx-auto flex justify-center max-h-full max-w-2xl">
+        <img src={images.Technologies} alt="Haptic technologies" />
       </div>
 
       <aside className="notes">

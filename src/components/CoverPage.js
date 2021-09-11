@@ -11,6 +11,9 @@ export default () => (
         Pasquale Julian Agustin
       </p>
       <p className="text-gray-400 text-3xl">
+        Defensa de tesina de Licenciatura en Sistemas
+      </p>
+      <p className="text-gray-400 text-3xl">
         Facultad de informática - UNLP
       </p>
     </section>

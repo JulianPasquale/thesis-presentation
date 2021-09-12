@@ -14,7 +14,11 @@ export default () => (
         ¿Qué es la experiencia de usuario?
       </p>
 
-      <div className="text-gray-600 text-3xl text-left">
+      <div className="mx-auto flex justify-center">
+        <img src={images.UX} alt="User Experience" className="h-2/5 w-2/5" />
+      </div>
+
+      <aside className="notes">
         <p>
           La experiencia de usuario trata de cómo un producto se comporta y
           cómo es usado por los usuarios.
@@ -35,12 +39,12 @@ export default () => (
           para respaldar la forma en que las personas se comunican e interactúan en su vida diaria
           y laboral.
         </p>
-      </div>
 
-      <aside className="notes">
-        El término diseño de interacción se utiliza generalmente para describir el campo,
-        incluidos sus métodos, teorías y enfoques.
-        UX se usa más ampliamente en la industria para referirse a la profesión.
+        <p>
+          El término diseño de interacción se utiliza generalmente para describir el campo,
+          incluidos sus métodos, teorías y enfoques.
+          UX se usa más ampliamente en la industria para referirse a la profesión.
+        </p>
       </aside>
     </section>
 
@@ -49,44 +53,43 @@ export default () => (
         Feedback háptico
       </p>
 
-      <div className="text-gray-600 text-3xl text-left">
-        <p>
-          El feedback háptico puede proveer múltiples beneficios en experiencias interactivas.
-        </p>
-
-        <p>
-          Las tecnologías hápticas permiten la transferencia de información entre humanos
-          y computadoras; esta transferencia es rica, proximal y rápida.
-          La información fluye en ambos sentidos, a través de la entrada y la salida,
-          a veces simultáneamente.
-        </p>
-
-        <p>
-          La tecnología háptica puede reforzar otras modalidades,
-          enriqueciendo la retroalimentación para una experiencia más completa,
-          o proporcionar retroalimentación complementaria.
-        </p>
-      </div>
-
-      <aside className="notes">
-        <ul>
+      <div className="text-gray-600 text-3xl text-left max-h-full">
+        <ul className="space-y-6">
           <li>
-            Saturación de información
+            Transferencia de información entre humanos y computadoras.
+            <ul>
+              <li>
+                Rica, proximal y rápida.
+              </li>
+
+              <li>
+                Fluye en ambos sentidos.
+              </li>
+            </ul>
           </li>
 
           <li>
-            Contexto de la tarea
-          </li>
+            Reforzar otras modalidades, brindando una experiencia más completa.
+            <ul>
+              <li>
+                Saturación de información
+              </li>
 
-          <li>
-            Deterioro de alguno de los sentidos
-          </li>
+              <li>
+                Contexto de la tarea
+              </li>
 
-          <li>
-            Comunicar emoción
+              <li>
+                Deterioro de alguno de los sentidos
+              </li>
+
+              <li>
+                Comunicar emoción
+              </li>
+            </ul>
           </li>
         </ul>
-      </aside>
+      </div>
     </section>
 
     <section>
@@ -102,14 +105,8 @@ export default () => (
           width="60%"
         />
       </div>
-    </section>
 
-    <section>
-      <p className="font-extrabold text-green-600 text-4xl">
-        Prototipado
-      </p>
-
-      <div className="text-gray-600 text-3xl text-left">
+      <aside className="notes">
         <p>
           La forma más eficiente para que los usuarios puedan evaluar los diseños creados,
           es mediante interacciones con ellos.
@@ -117,8 +114,7 @@ export default () => (
 
         <p>
           Un prototipo es una manifestación de un diseño que permite a los stakeholders
-          interactuar con él y explorarlo. Generalmente se utiliza para hacer
-          énfasis en algunas características del producto, por sobre otras.
+          interactuar con él y explorarlo.
         </p>
 
         <p>
@@ -126,7 +122,7 @@ export default () => (
           comunicar algo a los miembros del equipo o incluso pueden ser utilizados
           por los diseñadores para explorar nuevas ideas.
         </p>
-      </div>
+      </aside>
     </section>
   </section>
 );

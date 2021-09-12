@@ -11,7 +11,7 @@ export default () => (
 
     <section>
       <p className="font-extrabold text-green-600 text-4xl">
-        Relevamiento y estudio de Herramientas de maquetado comerciales
+        Herramientas de prototipado
       </p>
 
       <div className="grid grid-cols-4 gap-4 justify-center">

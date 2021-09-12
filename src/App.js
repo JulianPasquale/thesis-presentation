@@ -30,7 +30,7 @@ const App = () => {
 
       <slides.Introduction />
 
-      <slides.Targets />
+      <slides.Goals />
 
       <slides.UXDesign />
 

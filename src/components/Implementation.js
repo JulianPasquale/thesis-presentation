@@ -122,11 +122,6 @@ export default () => (
         Diseñar vibraciones
       </p>
 
-      <p className="text-gray-600 text-3xl text-left">
-        Se creó una herramienta web que, a través de un gráfico interactivo,
-        permite diseñar vibraciones.
-      </p>
-
       <div className="mx-auto flex justify-center max-h-96 max-w-2xl">
         <img
           src={images.HapticDesign}
@@ -140,34 +135,52 @@ export default () => (
         API de vibración W3C
       </p>
 
-      <p className="text-gray-600 text-3xl text-left">
-        El Consorcio World Wide Web (W3C) presentó una API de vibraciones para aplicaciones web.
-      </p>
+      <div className="text-gray-600 text-3xl text-left">
+        <p className="font-extrabold">
+          Ventajas
+        </p>
 
-      <p className="text-gray-600 text-3xl text-left">
-        Nos permite pedirle al motor de vibración del dispositivo (si es que éste posee),
-        que ejecute un patrón de vibración.
-      </p>
+        <ul className="space-y-6">
+          <li>
+            Facilidad de uso
+          </li>
 
-      <p className="text-gray-600 text-3xl text-left">
-        Se destaca principalmente por su facilidad de uso, aunque también posee varias limitaciones:
-      </p>
+          <li>
+            Abstracción
+          </li>
+        </ul>
 
-      <ul className="text-gray-600 text-3xl space-y-6 font-extrabold">
-        <li>
-          Compatibilidad
-        </li>
+        <p className="font-extrabold">
+          Desventajas
+        </p>
 
-        <li>
-          Control sobre el motor de vibraciones
-        </li>
-      </ul>
+        <ul className="space-y-6">
+          <li>
+            Compatibilidad
+          </li>
+
+          <li>
+            Control sobre el motor de vibraciones
+          </li>
+        </ul>
+      </div>
 
       <aside className="notes">
-        A través del llamado a la función vibrate se puede iniciar una vibración
-        del hardware pasando como argumento un sólo número, o un arreglo de un sólo número.
-        Este número representa la cantidad de milisegundos
-        que el motor de vibración estará encendido.
+        <p>
+          El Consorcio World Wide Web (W3C) presentó una API de vibraciones para aplicaciones web.
+        </p>
+
+        <p>
+          Nos permite pedirle al motor de vibración del dispositivo (si es que éste posee),
+          que ejecute un patrón de vibración.
+        </p>
+
+        <p>
+          A través del llamado a la función vibrate se puede iniciar una vibración
+          del hardware pasando como argumento un sólo número, o un arreglo de un sólo número.
+          Este número representa la cantidad de milisegundos
+          que el motor de vibración estará encendido.
+        </p>
       </aside>
     </section>
 
@@ -176,14 +189,8 @@ export default () => (
         Muestreo
       </p>
 
-      <p className="text-gray-600 text-3xl text-left">
-        A los fines de poder enviar los datos al motor de vibración de los dispositivos móviles,
-        debemos obtener una representación analógica de la señal.
-      </p>
-
-      <p className="text-gray-600 text-3xl text-left">
-        Esto se puede hacer muestreando una señal en puntos aislados,
-        igualmente espaciados en el tiempo.
+      <p className="text-gray-600 text-3xl">
+        Permite obtener una representación analógica de la señal.
       </p>
 
       <div className="mx-auto flex justify-center">
@@ -194,10 +201,20 @@ export default () => (
       </div>
 
       <aside className="notes">
-        El resultado del muestreo es una secuencia de números que se puede representar
-        como una función de una variable de índice que sólo toma valores enteros.
-        Para el desarrollo de esta herramienta, se utiliza una cantidad fija
-        de muestras por cada par de puntos (se utilizó un valor de 10 muestras).
+        <p>
+          Se obtienen muestras de la señal en puntos aislados,
+          igualmente espaciados en el tiempo.
+        </p>
+
+        <p>
+          El resultado del muestreo es una secuencia de números que se puede representar
+          como una función de una variable de índice que sólo toma valores enteros.
+        </p>
+
+        <p>
+          Para el desarrollo de esta herramienta, se utiliza una cantidad fija
+          de muestras por cada par de puntos (se utilizó un valor de 10 muestras).
+        </p>
       </aside>
     </section>
 
@@ -206,22 +223,35 @@ export default () => (
         PWM (Pulse Width Modulation)
       </p>
 
-      <p className="text-gray-600 text-3xl text-left">
-        Es una técnica en la que se modifica el ciclo de trabajo de una señal periódica.
-        En el contexto de este trabajo, fue utilizada para poder
-        simular la intensidad de las vibraciones.
-      </p>
+      <ul className="text-gray-600 text-3xl space-y-5">
+        <li>
+          Nos permite simular la intensidad de las vibraciones.
+        </li>
 
-      <p className="text-gray-600 text-3xl text-left">
-        El ciclo de trabajo describe la proporción de tiempo &quot;encendido&quot;
-        dentro de un intervalo o &quot;período&quot; de tiempo. Se expresa en
-        porcentaje (el 100% indica que el motor se encotrará encendido todo el tiempo).
-      </p>
+        <li>
+          Se basa en alterar el ciclo de trabajo.
+        </li>
 
-      <p className="text-gray-600 text-3xl text-left">
-        Un ciclo de trabajo bajo significa baja potencia,
-        porque la alimentación está apagada la mayor parte del tiempo.
-      </p>
+        <li className="font-extrabold">
+          Ciclo de trabajo bajo = baja potencia.
+        </li>
+
+        <li className="font-extrabold">
+          Ciclo de trabajo alto = alta potencia.
+        </li>
+      </ul>
+
+      <aside className="notes">
+        <p>
+          Es una técnica en la que se modifica el ciclo de trabajo de una señal periódica.
+        </p>
+
+        <p>
+          El ciclo de trabajo describe la proporción de tiempo que el motor estará
+          &quot;encendido&quot; dentro de un intervalo o &quot;período&quot; de tiempo.
+          Se expresa en porcentaje.
+        </p>
+      </aside>
     </section>
 
     <section>

@@ -14,43 +14,94 @@ export default () => (
         Herramientas de prototipado
       </p>
 
-      <div className="grid grid-cols-4 gap-4 justify-center">
-        <a
-          href="https://www.figma.com/"
-          target="_blank"
-          rel="noreferrer"
-          style={{ width: '80%', height: '80%' }}
-        >
-          <img src={images.Figma} alt="Figma" />
-        </a>
-
-        <a
-          href="https://www.adobe.com/la/products/xd.html"
-          target="_blank"
-          rel="noreferrer"
-          style={{ width: '80%', height: '80%' }}
-        >
-          <img src={images.AdobeXD} alt="Adobe XD" />
-        </a>
-
-        <a
-          href="https://www.sketch.com/"
-          target="_blank"
-          rel="noreferrer"
-          style={{ width: '60%', height: '60%' }}
-        >
-          <img src={images.Sketch} alt="Sketch" />
-        </a>
-
-        <a
-          href="https://www.framer.com/"
-          target="_blank"
-          rel="noreferrer"
-          style={{ width: '50%', height: '50%' }}
-        >
-          <img src={images.Framer} alt="Framer" />
-        </a>
-      </div>
+      <table className="table-fixed text-3xl">
+        <thead>
+          <tr>
+            <th aria-label="Analysis" className="w-1/7" />
+            <th className="w-1/6">
+              <div className="flex justify-center">
+                <a
+                  href="https://www.figma.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={images.Figma} alt="Figma" />
+                </a>
+              </div>
+            </th>
+            <th className="w-1/7">
+              <div className="flex justify-center">
+                <a
+                  href="https://www.adobe.com/la/products/xd.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={images.AdobeXD} alt="Adobe XD" />
+                </a>
+              </div>
+            </th>
+            <th className="w-1/7">
+              <div className="flex justify-center">
+                <a
+                  href="https://www.sketch.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={images.Sketch} alt="Sketch" />
+                </a>
+              </div>
+            </th>
+            <th className="w-1/7">
+              <div className="flex justify-center">
+                <a
+                  href="https://balsamiq.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={images.Balsamiq} alt="Balsamiq" />
+                </a>
+              </div>
+            </th>
+            <th className="w-1/7">
+              <div className="flex justify-center">
+                <a
+                  href="https://www.framer.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={images.Framer} alt="Framer" />
+                </a>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Utilizada para diseño de interfaces</td>
+            <td style={{ textAlign: 'center' }}>✅</td>
+            <td style={{ textAlign: 'center' }}>✅</td>
+            <td style={{ textAlign: 'center' }}>✅</td>
+            <td style={{ textAlign: 'center' }}>✅</td>
+            <td style={{ textAlign: 'center' }}>✅</td>
+          </tr>
+          <tr>
+            <td>Posee aplicación móvil</td>
+            <td style={{ textAlign: 'center' }}>✅</td>
+            <td style={{ textAlign: 'center' }}>✅</td>
+            <td style={{ textAlign: 'center' }}>✅</td>
+            <td style={{ textAlign: 'center' }}>❌</td>
+            <td style={{ textAlign: 'center' }}>✅</td>
+          </tr>
+          <tr>
+            <td>Permite ejecutar vibraciones</td>
+            <td style={{ textAlign: 'center' }}>❌</td>
+            <td style={{ textAlign: 'center' }}>❌</td>
+            <td style={{ textAlign: 'center' }}>❌</td>
+            <td style={{ textAlign: 'center' }}>❌</td>
+            <td style={{ textAlign: 'center' }}>✅</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <section>

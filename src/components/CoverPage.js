@@ -16,6 +16,9 @@ export default () => (
       <p className="text-gray-400 text-3xl">
         Facultad de informática - UNLP
       </p>
+      <p className="text-gray-400 text-3xl">
+        Octubre 2021
+      </p>
     </section>
   </>
 );

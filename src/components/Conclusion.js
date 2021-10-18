@@ -40,8 +40,7 @@ export default () => (
           </li>
 
           <li>
-            Se ideo un algoritmo que permite transformar una señal digital en una señal analógica
-            para representar vibraciones.
+            Se ideo un algoritmo que permite representar una señal analógica.
           </li>
 
           <li>

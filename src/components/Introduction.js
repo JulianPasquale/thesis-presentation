@@ -16,12 +16,7 @@ export default () => (
 
       <aside className="notes">
         <p>
-          La propiocepción se refiere a cómo las personas perciben su propio cuerpo,
-          a diferencia del sentido háptico que es como las personas perciben a los objetos externos.
-        </p>
-
-        <p>
-          El término háptica fue utilizado en el año 1892 para referirse al estudio del tacto,
+          El término háptica fue utilizado en sus inicios para referirse al estudio del tacto,
           similar a “óptico” para la vista o “acústico” para el sonido.
         </p>
 
@@ -33,12 +28,11 @@ export default () => (
 
         <p>
           Integra información proveniente de dos sentidos:
-          el tacto y la kinestesia.
+          el tacto y la kinestesia. Combina el tacto con el sentido del movimiento
         </p>
 
         <p>
-          Utiliza receptores de la piel y sensores en los músculos, tendones y articulaciones,
-          y combina el tacto con el sentido del movimiento.
+          Utiliza receptores de la piel y sensores en los músculos, tendones y articulaciones.
         </p>
       </aside>
     </section>
@@ -60,19 +54,12 @@ export default () => (
       </div>
 
       <aside className="notes">
-        <ul>
-          <li>
-            El sensado háptico difiere de otros sentidos en que es bidireccional:
-            la información que se puede extraer sobre las propiedades de un objeto
-            está muy vinculada con los movimientos realizados para percibir esas propiedades.
-          </li>
-          <li>
-            La persona realiza movimientos voluntarios para inspeccionar los objetos de su entorno,
-            lo que permite obtener información mucho más detallada,
-            que está estrictamente relacionada con los movimientos realizados
-            por la persona en su interacción con el objeto.
-          </li>
-        </ul>
+        <p>
+          El sensado háptico difiere de otros sentidos en que es bidireccional:
+          la información que se puede extraer sobre las propiedades de un objeto
+          está vinculada estríctamente con los movimientos voluntarios que la persona
+          realiza en su interacción con él.
+        </p>
       </aside>
     </section>
 
@@ -91,11 +78,8 @@ export default () => (
             El diseño de experiencias hápticas (en particular mediante efectos vibrotáctiles) es una
             tendencia que está siendo cada vez más relevante dentro de la industria tecnológica,
             ya sea en el área de los videojuegos, dispositivos de IoT o
-            desarrollo de aplicaciones móviles.
-          </li>
-          <li>
-            Diseñar este tipo de experiencias es por el momento un gran reto
-            para los diseñadores por la falta de herramientas específicas
+            desarrollo de aplicaciones móviles. En particular este trabajo de tesina está
+            situado en este último contexto mencionado.
           </li>
         </ul>
       </aside>
